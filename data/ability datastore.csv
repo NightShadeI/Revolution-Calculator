@@ -1,0 +1,22 @@
+﻿Ability name,Class,Hands,Type,Min Damage,Max Damage,Average Damage,Cooldown (seconds),Damages on bind,Binds target,Bind duration (seconds),DOT ability,DOT time,Multiplier on move,does AOE,Channeled ability,Channel hits,Comments
+Slice,Melee,0,Basic,30,120,75,3,1,0,0,0,0,1,0,0,,
+Lesser Smash,Melee,2,Basic,20,120,70,10.2,0,0,0,0,0,1,0,0,,
+Lesser Havoc,Melee,1,Basic,20,120,70,10.2,0,0,0,0,0,1,0,0,,
+Lesser Sever,Melee,0,Basic,28.8,144,86.4,15,0,0,0,0,0,1,0,0,,
+Backhand,Melee,0,Basic,20,100,60,15,0,1,1.2,0,0,1,0,0,,
+Slaughter,Melee,0,Threshold,100,250,145,30,0,0,0,1,6,3,0,0,,
+Overpower,Melee,0,Ultimate,200,400,300,30,0,0,0,0,0,1,1,0,,
+Havoc,Melee,1,Basic,31.4,157,94.2,10.2,0,0,0,0,0,1,0,0,,
+Forceful Backhand,Melee,0,Threshold,40,200,120,15,0,1,3,0,0,1,0,0,,
+Smash,Melee,2,Basic,31.4,157,94.2,10.2,0,0,0,0,0,1,0,0,,
+Barge,Melee,0,Basic,25,125,75,20.4,0,1,6.6,0,0,1,0,0,,
+Greater Barge,Melee,0,Basic,25,125,75,20.4,0,1,6.6,0,0,1,0,0,,TO IMPLEMENT
+Greater Flurry,Melee,1,Threshold,376,628,502,20.4,0,0,0,0,,1,1,1,"x,x,x,x","TO CHECK VALUES, IMPLEMENT"
+Flurry,Melee,1,Threshold,75.2,376,225.6,20.4,0,0,0,0,0,1,1,1,"x,x,x,x",TO CHECK VALUES
+Sever,Melee,0,Basic,37.6,188,112.8,15,0,0,0,0,0,1,0,1,"x,x,x,x",TO CHECK VALUES
+Hurricane,Melee,1,Threshold,150,380,265,20.4,0,0,0,0,0,1,1,0,,
+Bladed Dive,Melee,1,Basic,25,125,75,20.4,0,0,0,0,0,1,1,0,,
+Massacre,Melee,1,Ultimate,350.93,501.33,426.13,60,0,0,0,1,6,1,0,0,,TO IMPLEMENT
+Blood Tendrils,Melee,0,Threshold,108,540,324,45,0,0,0,1,4.8,1,0,0,,
+Meteor Strike,Melee,2,Ultimate,250,350,300,60,0,0,0,0,0,1,1,0,,
+Balanced Strike,Melee,0,Ultimate,*,*,*,120,0,0,0,0,0,1,0,0,,
