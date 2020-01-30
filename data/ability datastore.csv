@@ -1,22 +1,37 @@
-﻿Ability name,Class,Hands,Type,Min Damage,Max Damage,Average Damage,Cooldown (seconds),Damages on bind,Binds target,Bind duration (seconds),DOT ability,DOT time,Multiplier on move,does AOE,Channeled ability,Channel hits,Comments
-Slice,Melee,0,Basic,30,120,75,3,1,0,0,0,0,1,0,0,,
-Lesser Smash,Melee,2,Basic,20,120,70,10.2,0,0,0,0,0,1,0,0,,
-Lesser Havoc,Melee,1,Basic,20,120,70,10.2,0,0,0,0,0,1,0,0,,
-Lesser Sever,Melee,0,Basic,28.8,144,86.4,15,0,0,0,0,0,1,0,0,,
-Backhand,Melee,0,Basic,20,100,60,15,0,1,1.2,0,0,1,0,0,,
-Slaughter,Melee,0,Threshold,100,250,145,30,0,0,0,1,6,3,0,0,,
-Overpower,Melee,0,Ultimate,200,400,300,30,0,0,0,0,0,1,1,0,,
-Havoc,Melee,1,Basic,31.4,157,94.2,10.2,0,0,0,0,0,1,0,0,,
-Forceful Backhand,Melee,0,Threshold,40,200,120,15,0,1,3,0,0,1,0,0,,
-Smash,Melee,2,Basic,31.4,157,94.2,10.2,0,0,0,0,0,1,0,0,,
-Barge,Melee,0,Basic,25,125,75,20.4,0,1,6.6,0,0,1,0,0,,
-Greater Barge,Melee,0,Basic,25,125,75,20.4,0,1,6.6,0,0,1,0,0,,TO IMPLEMENT
-Greater Flurry,Melee,1,Threshold,376,628,502,20.4,0,0,0,0,,1,1,1,"x,x,x,x","TO CHECK VALUES, IMPLEMENT"
-Flurry,Melee,1,Threshold,75.2,376,225.6,20.4,0,0,0,0,0,1,1,1,"x,x,x,x",TO CHECK VALUES
-Sever,Melee,0,Basic,37.6,188,112.8,15,0,0,0,0,0,1,0,1,"x,x,x,x",TO CHECK VALUES
-Hurricane,Melee,1,Threshold,150,380,265,20.4,0,0,0,0,0,1,1,0,,
-Bladed Dive,Melee,1,Basic,25,125,75,20.4,0,0,0,0,0,1,1,0,,
-Massacre,Melee,1,Ultimate,350.93,501.33,426.13,60,0,0,0,1,6,1,0,0,,TO IMPLEMENT
-Blood Tendrils,Melee,0,Threshold,108,540,324,45,0,0,0,1,4.8,1,0,0,,
-Meteor Strike,Melee,2,Ultimate,250,350,300,60,0,0,0,0,0,1,1,0,,
-Balanced Strike,Melee,0,Ultimate,*,*,*,120,0,0,0,0,0,1,0,0,,
+Ability name,Class,Hands,Type,Min Damage (%),Max Damage (%),Average Damage (%),Cooldown (seconds),Damages on bind,Binds target,Bind duration (seconds),DOT ability,DOT time,Multiplier on move,does AOE,Channeled ability,Channel hits,Damage boosting,Boost duration,Boost multiplier,Comments
+Slice,Melee,0,Basic,30,120,75,3,1,0,0,0,0,1,0,0,,0,0,1,
+Lesser Smash,Melee,2,Basic,20,120,70,10.2,0,0,0,0,0,1,0,0,,0,0,1,
+Lesser Havoc,Melee,1,Basic,20,120,70,10.2,0,0,0,0,0,1,0,0,,0,0,1,
+Lesser Sever,Melee,0,Basic,28.8,144,86.4,15,0,0,0,0,0,1,0,0,,0,0,1,
+Backhand,Melee,0,Basic,20,100,60,15,0,1,1.2,0,0,1,0,0,,0,0,1,
+Slaughter,Melee,0,Threshold,100,250,145,30,0,0,0,1,6,3,0,0,,0,0,1,
+Overpower,Melee,0,Ultimate,200,400,300,30,0,0,0,0,0,1,1,0,,0,0,1,
+Havoc,Melee,1,Basic,31.4,157,94.2,10.2,0,0,0,0,0,1,0,0,,0,0,1,
+Forceful Backhand,Melee,0,Threshold,40,200,120,15,0,1,3,0,0,1,0,0,,0,0,1,
+Smash,Melee,2,Basic,31.4,157,94.2,10.2,0,0,0,0,0,1,0,0,,0,0,1,
+Barge,Melee,0,Basic,25,125,75,20.4,0,1,6.6,0,0,1,0,0,,0,0,1,
+Greater Barge,Melee,0,Basic,25,125,75,20.4,0,1,6.6,0,0,1,0,0,,0,0,1,TO IMPLEMENT
+Greater Flurry,Melee,1,Threshold,376,628,502,20.4,0,0,0,0,,1,1,1,"x,x,x,x",0,0,1,"TO CHECK VALUES, IMPLEMENT"
+Flurry,Melee,1,Threshold,75.2,376,225.6,20.4,0,0,0,0,0,1,1,1,"x,x,x,x",0,0,1,TO CHECK VALUES
+Sever,Melee,0,Basic,37.6,188,112.8,15,0,0,0,0,0,1,0,1,"x,x,x,x",0,0,1,TO CHECK VALUES
+Hurricane,Melee,1,Threshold,150,380,265,20.4,0,0,0,0,0,1,1,0,,0,0,1,
+Bladed Dive,Melee,1,Basic,25,125,75,20.4,0,0,0,0,0,1,1,0,,0,0,1,
+Massacre,Melee,1,Ultimate,350.93,501.33,426.13,60,0,0,0,1,6,1,0,0,,0,0,1,TO IMPLEMENT
+Blood Tendrils,Melee,0,Threshold,108,540,324,45,0,0,0,1,4.8,1,0,0,,0,0,1,
+Meteor Strike,Melee,2,Ultimate,250,350,300,60,0,0,0,0,0,1,1,0,,0,0,1,
+Balanced Strike,Melee,0,Ultimate,*,*,*,120,0,0,0,0,0,1,0,0,,0,0,1,
+Lesser Dismember,Melee,0,Basic,100,144,106.7,15,0,0,0,1,6,1,0,0,,0,0,1,
+Stomp,Melee,0,Threshold,40,200,120,15,0,1,3.6,0,0,1,0,0,,0,0,1,
+Kick,Melee,0,Basic,20,100,60,15,0,1,1.2,0,0,1,0,0,,0,0,1,
+Punish,Melee,0,Basic,18.8,94,56.4,3,1,0,0,0,0,1,0,0,,0,0,1,
+Dismember,Melee,0,Basic,100,188,120.6,15,0,0,0,1,6,1,0,0,,0,0,1,
+Greater Fury,Melee,0,Basic,31.4,157,94.2,5.4,0,0,0,0,0,1,0,0,,0,0,1,
+Fury,Melee,0,Basic,49.2,236,152.8,5.4,0,0,0,0,0,1,0,1,"x,x,x",0,0,1,TO CHECK VALUES
+Destroy,Melee,1,Threshold,150.4,752,451.2,20.4,0,0,0,0,0,1,0,1,"x,x,x,x",0,0,1,TO CHECK VALUES
+Quake,Melee,2,Threshold,43.8,219,131.4,20.4,0,0,0,0,0,1,1,0,,0,0,1,
+Berserk,Melee,0,Ultimate,0,0,0,60,0,0,0,0,0,1,0,0,,1,19.8,2,
+Cleave,Melee,2,Basic,37.6,188,112.8,7.2,0,0,0,0,0,1,1,0,,0,0,1,
+Assault,Melee,0,Threshold,175.2,876,525.6,30,0,0,0,0,0,1,0,1,"x,x,x,x",0,0,1,TO CHECK VALUES
+Decimate,Melee,1,Basic,37.6,188,112.8,7.2,0,0,0,0,0,1,0,0,,0,0,1,
+Pulverise,Melee,2,Ultimate,250,350,300,60,0,0,0,0,0,1,0,0,,0,0,1,
+Frenzy,Melee,1,Ultimate,380,840,610,60,0,0,0,0,0,1,0,1,"x,x,x,x",0,0,1,
